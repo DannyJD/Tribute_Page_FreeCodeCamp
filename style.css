@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  line-height: 1.5rem;
+  padding: 15px;
+  margin: 30px 8px;
+}
+
+/* Media Query */
+
+@media (max-width: 500px) {
+  h1 {
+    line-height: 1.5;
+  }
+
+  body {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+    padding: 50px;
+    margin: 10px;
+  }
+
+  #img.div {
+    padding: 10px;
+    max-width: 100%;
+  }
+}
+
+/* Main Body of text */
+h1 {
+  font-size: 2.5em;
+}
+
+h3 {
+  text-align: center;
+}
+
+#main {
+  background: #eeeeee;
+  border-radius: 5px;
+  padding-bottom: 15px;
+  position: relative;
+  padding: 15px;
+  margin: 10px;
+}
+
+#title {
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  padding: 10px;
+  margin: auto;
+}
+
+#img-div {
+  background: #ffffff;
+  text-align: center;
+  padding: 10px;
+  margin: 15px;
+  max-width: 100%;
+}
+
+#headline {
+  padding-bottom: 20px;
+}
+
+ul li {
+  font-family: "Segoe UI", sans-serif;
+  padding-top: 10px;
+}
+
+#tribute-info {
+  max-width: 100%;
+  margin: auto;
+  padding-top: 20px;
+  margin: 20px;
+}
+
+#tribute-link {
+  margin: auto;
+  text-align: center;
+}
